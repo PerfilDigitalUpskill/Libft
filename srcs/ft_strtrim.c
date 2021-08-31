@@ -6,7 +6,7 @@
 /*   By: malmeida <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/15 12:55:27 by malmeida          #+#    #+#             */
-/*   Updated: 2021/04/23 14:38:31 by malmeida         ###   ########.fr       */
+/*   Updated: 2021/08/31 13:50:22 by malmeida         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static int	checker(char a, char const *set)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (set[i])
@@ -26,7 +26,7 @@ static int	checker(char a, char const *set)
 	return (0);
 }
 
-char		*ft_strtrim(char const *s1, char const *set)
+char	*ft_strtrim(char const *s1, char const *set)
 {
 	char	*ptr;
 	int		start;

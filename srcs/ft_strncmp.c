@@ -6,7 +6,7 @@
 /*   By: malmeida <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/11 01:00:10 by malmeida          #+#    #+#             */
-/*   Updated: 2021/04/23 14:38:01 by malmeida         ###   ########.fr       */
+/*   Updated: 2021/08/31 13:50:46 by malmeida         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	bizzle = (unsigned char *)s2;
 	i = 0;
 	if (n)
+	{
 		while (i < n)
 		{
 			if (!sizzle[i] || !bizzle[i])
@@ -31,5 +32,6 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 			else
 				return (sizzle[i] - bizzle[i]);
 		}
+	}
 	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: malmeida <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/23 11:53:03 by malmeida          #+#    #+#             */
-/*   Updated: 2021/04/23 16:59:32 by malmeida         ###   ########.fr       */
+/*   Updated: 2021/08/31 13:51:21 by malmeida         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
-	t_list *tmp;
+	t_list	*tmp;
 
 	if (lst)
 	{

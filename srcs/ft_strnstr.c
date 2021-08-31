@@ -6,7 +6,7 @@
 /*   By: malmeida <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/11 01:20:43 by malmeida          #+#    #+#             */
-/*   Updated: 2021/04/23 14:38:12 by malmeida         ###   ########.fr       */
+/*   Updated: 2021/08/31 13:49:50 by malmeida         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*ft_strnstr(const char *s1, const char *s2, size_t n)
 {
-	unsigned int i;
-	unsigned int j;
+	unsigned int	i;
+	unsigned int	j;
 
 	i = 0;
 	if (!*s2)

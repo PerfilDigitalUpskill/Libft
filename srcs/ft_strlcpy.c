@@ -6,7 +6,7 @@
 /*   By: malmeida <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/08 19:05:55 by malmeida          #+#    #+#             */
-/*   Updated: 2021/04/23 14:48:27 by malmeida         ###   ########.fr       */
+/*   Updated: 2021/08/31 13:48:26 by malmeida         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
-	unsigned int i;
+	unsigned int	i;
 
 	if (!src || !dst)
 		return (0);

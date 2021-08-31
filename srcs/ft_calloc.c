@@ -6,7 +6,7 @@
 /*   By: malmeida <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/12 16:32:15 by malmeida          #+#    #+#             */
-/*   Updated: 2021/04/23 14:32:26 by malmeida         ###   ########.fr       */
+/*   Updated: 2021/08/31 12:05:45 by malmeida         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
-	char *ptr;
+	char	*ptr;
 
 	ptr = malloc(nmemb * size);
 	if (ptr == NULL)

@@ -6,16 +6,16 @@
 /*   By: malmeida <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/15 16:01:55 by malmeida          #+#    #+#             */
-/*   Updated: 2021/04/23 14:35:37 by malmeida         ###   ########.fr       */
+/*   Updated: 2021/08/31 12:11:46 by malmeida         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-static int		count_words(char const *s, char c)
+static int	count_words(char const *s, char c)
 {
-	int word_count;
-	int i;
+	int	word_count;
+	int	i;
 
 	i = 0;
 	word_count = 0;
@@ -31,7 +31,7 @@ static int		count_words(char const *s, char c)
 	return (word_count);
 }
 
-char			**ft_split(char const *s, char c)
+char	**ft_split(char const *s, char c)
 {
 	int		i;
 	int		j;

@@ -6,13 +6,13 @@
 /*   By: malmeida <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/11 02:46:28 by malmeida          #+#    #+#             */
-/*   Updated: 2021/02/23 19:22:05 by malmeida         ###   ########.fr       */
+/*   Updated: 2021/08/31 13:50:04 by malmeida         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strrchr(const char *s, int c)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (s[i])
